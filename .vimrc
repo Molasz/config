@@ -68,9 +68,17 @@ let g:terminal_ansi_colors = [
 nnoremap <C-t> :NERDTreeToggle<CR>
 let NERDTreeShowHidden=1
 let NERDTreeRespectWildIgnore=1
-set wildignore+=*.DS_Store,*.min.*,*.o,*.d
+set wildignore+=*.DS_Store,*.min.*,*.o,*.d,.git
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
 nmap <F8> :TagbarToggle<CR>
+
+let g:user42 = 'molasz'
+let g:mail42 = 'molasz-a@student.42barcelona.com'
+
+let mapleader = "\\"
+nnoremap <leader>\ ``
+noremap jj <Esc>
+nnoremap <space> :
