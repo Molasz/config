@@ -75,7 +75,7 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 
 nmap <F8> :TagbarToggle<CR>
 
-let g:user42 = 'molasz'
+let g:user42 = 'molasz-a'
 let g:mail42 = 'molasz-a@student.42barcelona.com'
 
 let mapleader = "\\"
