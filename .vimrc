@@ -80,5 +80,4 @@ let g:mail42 = 'molasz-a@student.42barcelona.com'
 
 let mapleader = "\\"
 nnoremap <leader>\ ``
-noremap jj <Esc>
 nnoremap <space> :
